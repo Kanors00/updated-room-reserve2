@@ -1,0 +1,19 @@
+@media (max-width: 576px) {
+  .table th, .table td {
+    font-size: 0.85rem;
+    padding: 0.4rem;
+  }
+
+  .modal-dialog {
+    margin: 1rem;
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+  }
+}
+

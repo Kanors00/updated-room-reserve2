@@ -1,0 +1,159 @@
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.form-group label {
+  font-weight: 500;
+}
+
+.flatpickr-day.available {
+  background-color: #d4edda !important;
+  color: #155724 !important;
+  border: 1px solid #c3e6cb !important;
+}
+
+.flatpickr-day.unavailable {
+  background-color: #f8d7da !important;
+  color: #721c24 !important;
+  border: 1px solid #f5c6cb !important;
+  cursor: not-allowed;
+}
+
+.flatpickr-day.weekend,
+.flatpickr-day.past-date {
+  background-color: #e9ecef !important;
+  color: #6c757d !important;
+  border: 1px solid #dee2e6 !important;
+  cursor: not-allowed;
+}
+
+/* Improve form spacing and readability */
+.card-body .form-group {
+  margin-bottom: 1.2rem;
+}
+
+/* Style the calendar legend badges */
+.badge {
+  font-size: 0.85rem;
+  padding: 0.4em 0.6em;
+  border-radius: 0.25rem;
+}
+
+/* Add hover effect to submit button */
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+/* Add subtle shadow to room card */
+.card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Highlight selected input fields */
+input:focus,
+select:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .card-body {
+    padding: 1rem;
+  }
+}
+
+        .modal-dialog {
+            max-width: 400px;
+            width: 100%;
+            margin: auto;
+        }
+
+        .modal-content {
+            animation: fadeInUp 0.6s ease-in-out;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        h2 {
+            font-weight: 600;
+            font-size: 1.5rem;
+            color: #34495e;
+            animation: fadeInDown 0.5s ease-in-out;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .form-floating>label {
+            transition: all 0.2s ease-in-out;
+            color: #6c757d;
+        }
+
+        .form-floating>.form-control:focus~label,
+        .form-floating>.form-control:not(:placeholder-shown)~label {
+            color: #0d6efd;
+            transform: translateY(-0.5rem) scale(0.85);
+        }
+
+        .btn-primary {
+            background-color: #2980b9;
+            border: none;
+            transition: background-color 0.3s ease;
+            font-weight: 500;
+            font-size: 1rem;
+            padding: 0.6rem 1rem;
+        }
+
+        .btn-primary:hover {
+            background-color: #1f6391;
+        }
+
+        .password-toggle {
+            position: absolute;
+            top: 50%;
+            right: 1rem;
+            transform: translateY(-50%);
+            cursor: pointer;
+            color: #6c757d;
+            z-index: 2;
+            padding: 0.25rem;
+            background-color: white;
+        }
+
+        .form-floating {
+            position: relative;
+        }
+
+        @media (max-width: 576px) {
+            .modal-body {
+                padding: 1rem;
+            }
+        }
+
+        .form-control:focus {
+            box-shadow: 0 0 0 0.2rem rgba(41, 128, 185, 0.25);
+        }
